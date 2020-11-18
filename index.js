@@ -6,8 +6,6 @@ wa.create({
 
 async function start(client) {
   let bot = require("./bot.json");
-  // console.log("bot", bot);
-  // fs.writeFileSync("bot.json", JSON.stringify({"foo": "bar"}));
   client.onMessage(async message => {
     console.log("message", message);
     if (message.from === bot.masterId && message.to === bot.self) {
@@ -33,7 +31,6 @@ async function start(client) {
       }
       if (message.body.toLowerCase() === "listgroups") {
         let groups = await client.getAllGroups();
-        console.log("groups", groups);
         let groupObj = {};
         groups.forEach(group => {
           groupObj[group.id] = group.name;
@@ -60,5 +57,5 @@ function writeBackToJsonFile(fileName, key, value) {
   // read the file
   let json = require(fileName);
   json[key] = value;
-  fs.writeFileSync(fileName, JSON.stringify(json));
+  fs.writeFileSync(fileName, JSON.stringify(json, null, "\t"));
 }
