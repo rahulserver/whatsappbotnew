@@ -36,8 +36,7 @@ async function start(client) {
   });
 
   client.on('message_create', async message => {
-    console.log("message_create", message);
-    if (message.fromMe && message.to === bot.self) {
+    if (message.fromMe && client.info.wid._serialized==message.to) {
       if (message.isForwarded) {
         bot = require("./bot.json");
         let recipients = Object.keys(bot["recipients"]);
@@ -65,8 +64,9 @@ async function start(client) {
         groups.forEach(group => {
           groupObj[`${group.id.user}@${group.id.server}`] = group.name;
         });
-
+        console.log(`Writing ${groups.length} groups to bot.json recipients`);
         writeBackToJsonFile("./bot.json", "recipients", groupObj);
+        console.log("Success!");
       }
     }
   });

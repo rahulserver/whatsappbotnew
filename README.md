@@ -6,5 +6,4 @@ forward message to "self"
 
 currently you need to install the click to send software https://play.google.com/store/apps/details?id=com.trianguloy.openInWhatsapp to send message to self.
 
-the "self" in bot.json should be your mobile number which is open in whatsapp web(masterId is not of any use in this version)
-so basically this bot takes all messages sent to "self" as commands(forwarded or "listGroups");
+note that "self" is the mobile number that is being used with whatsapp web. YOU NO LONGER NEED THE "self" and "masterId" in bot.json for current version. Leave those fields like that for possible future versions.
