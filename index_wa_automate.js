@@ -8,7 +8,7 @@ async function start(client) {
   let bot = require("./bot.json");
   client.onMessage(async message => {
     console.log("message", message);
-    if (message.from === bot.masterId && message.to === bot.self) {
+    if (message.from === bot.self && message.to === bot.self) {
       if (message.isForwarded) {
         bot = require("./bot.json");
         let recipients = Object.keys(bot["recipients"]);

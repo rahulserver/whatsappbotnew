@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@open-wa/wa-automate": "^3.1.0",
-    "whatsapp-web.js": "^1.11.1"
+    "whatsapp-web.js": "^1.12.6"
   }
 }
