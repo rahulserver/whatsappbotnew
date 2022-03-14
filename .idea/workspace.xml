@@ -20,13 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="171ba52e-6195-44da-8717-4149354883ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.json" beforeDir="false" afterPath="$PROJECT_DIR$/bot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_wa_automate.js" beforeDir="false" afterPath="$PROJECT_DIR$/index_wa_automate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session.data.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +63,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -95,7 +95,9 @@
       <workItem from="1605665547919" duration="4748000" />
       <workItem from="1606652149103" duration="4801000" />
       <workItem from="1606705735436" duration="2467000" />
-      <workItem from="1620551831446" duration="882000" />
+      <workItem from="1620551831446" duration="1620000" />
+      <workItem from="1620726273424" duration="407000" />
+      <workItem from="1647273642727" duration="2029000" />
     </task>
     <servers />
   </component>
@@ -115,84 +117,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1444" height="459" key="GridCell.Tab.0.bottom" timestamp="1620552555589">
-      <screen x="0" y="25" width="2560" height="1321" />
+    <state x="100" y="125" width="2360" height="1117" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1647274397813">
+      <screen x="0" y="25" width="2560" height="1317" />
     </state>
-    <state width="1444" height="459" key="GridCell.Tab.0.bottom/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555589" />
-    <state width="1444" height="459" key="GridCell.Tab.0.center" timestamp="1620552555588">
-      <screen x="0" y="25" width="2560" height="1321" />
-    </state>
-    <state width="1444" height="459" key="GridCell.Tab.0.center/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555588" />
-    <state width="1444" height="459" key="GridCell.Tab.0.left" timestamp="1620552555587">
-      <screen x="0" y="25" width="2560" height="1321" />
-    </state>
-    <state width="1444" height="459" key="GridCell.Tab.0.left/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555587" />
-    <state width="1444" height="459" key="GridCell.Tab.0.right" timestamp="1620552555589">
-      <screen x="0" y="25" width="2560" height="1321" />
-    </state>
-    <state width="1444" height="459" key="GridCell.Tab.0.right/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555589" />
-    <state width="1444" height="459" key="GridCell.Tab.1.bottom" timestamp="1620552555590">
-      <screen x="0" y="25" width="2560" height="1321" />
-    </state>
-    <state width="1444" height="459" key="GridCell.Tab.1.bottom/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555590" />
-    <state width="1444" height="459" key="GridCell.Tab.1.center" timestamp="1620552555590">
-      <screen x="0" y="25" width="2560" height="1321" />
-    </state>
-    <state width="1444" height="459" key="GridCell.Tab.1.center/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555590" />
-    <state width="1444" height="459" key="GridCell.Tab.1.left" timestamp="1620552555589">
-      <screen x="0" y="25" width="2560" height="1321" />
-    </state>
-    <state width="1444" height="459" key="GridCell.Tab.1.left/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555589" />
-    <state width="1444" height="459" key="GridCell.Tab.1.right" timestamp="1620552555590">
-      <screen x="0" y="25" width="2560" height="1321" />
-    </state>
-    <state width="1444" height="459" key="GridCell.Tab.1.right/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555590" />
-    <state width="1444" height="459" key="GridCell.Tab.2.bottom" timestamp="1620552555591">
-      <screen x="0" y="25" width="2560" height="1321" />
-    </state>
-    <state width="1444" height="459" key="GridCell.Tab.2.bottom/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555591" />
-    <state width="1444" height="459" key="GridCell.Tab.2.center" timestamp="1620552555590">
-      <screen x="0" y="25" width="2560" height="1321" />
-    </state>
-    <state width="1444" height="459" key="GridCell.Tab.2.center/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555590" />
-    <state width="1444" height="459" key="GridCell.Tab.2.left" timestamp="1620552555590">
-      <screen x="0" y="25" width="2560" height="1321" />
-    </state>
-    <state width="1444" height="459" key="GridCell.Tab.2.left/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555590" />
-    <state width="1444" height="459" key="GridCell.Tab.2.right" timestamp="1620552555590">
-      <screen x="0" y="25" width="2560" height="1321" />
-    </state>
-    <state width="1444" height="459" key="GridCell.Tab.2.right/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555590" />
-    <state width="1444" height="459" key="GridCell.Tab.3.bottom" timestamp="1620552555592">
-      <screen x="0" y="25" width="2560" height="1321" />
-    </state>
-    <state width="1444" height="459" key="GridCell.Tab.3.bottom/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555592" />
-    <state width="1444" height="459" key="GridCell.Tab.3.center" timestamp="1620552555591">
-      <screen x="0" y="25" width="2560" height="1321" />
-    </state>
-    <state width="1444" height="459" key="GridCell.Tab.3.center/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555591" />
-    <state width="1444" height="459" key="GridCell.Tab.3.left" timestamp="1620552555591">
-      <screen x="0" y="25" width="2560" height="1321" />
-    </state>
-    <state width="1444" height="459" key="GridCell.Tab.3.left/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555591" />
-    <state width="1444" height="459" key="GridCell.Tab.3.right" timestamp="1620552555591">
-      <screen x="0" y="25" width="2560" height="1321" />
-    </state>
-    <state width="1444" height="459" key="GridCell.Tab.3.right/2560.385.1920.1055/0.25.2560.1321@0.25.2560.1321" timestamp="1620552555591" />
+    <state x="100" y="125" width="2360" height="1117" key="com.intellij.history.integration.ui.views.FileHistoryDialog/2560.290.1920.1055/0.25.2560.1317@0.25.2560.1317" timestamp="1647274397813" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.js</url>
-          <line>60</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/index.js</url>
-          <line>38</line>
-          <properties lambdaOrdinal="-1" />
+          <line>62</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
